@@ -10,5 +10,16 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 500;
-
+    color: #292420;
 }
+
+/* headings and logo */
+h1,
+h2 {
+    font-family: Playfair Display, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #292420
+}
+
+#title {}
