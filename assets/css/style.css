@@ -22,4 +22,28 @@ h2 {
     color: #292420
 }
 
-#title {}
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+
+}
+
+/* navigation bar*/
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 120%;
+    letter-spacing: 3px;
+    margin-right: 25px;
+}
+
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
