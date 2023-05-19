@@ -96,3 +96,14 @@ header{
     transform-origin: right;
     transform: scaleX(1)
 }
+
+/* Hero Image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/Hero-image.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
