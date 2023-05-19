@@ -15,7 +15,7 @@ body {
     background-color: #BCA881;
 }
 
-/* headings and logo */
+/* Headings and Logo */
 h1,
 h2 {
     font-family: Playfair Display, sans-serif;
@@ -38,7 +38,7 @@ header{
 }
 
 
-/* navigation bar */
+/* Navigation Bar */
 
 .navbar {
     display: flex;
@@ -68,7 +68,7 @@ header{
     color: inherit;
 }
 
-/* navigation bar further styling: hoover*/
+/* Navigation bar further styling: hoover*/
 
 .nav-links li {
     position: relative;
@@ -101,7 +101,7 @@ header{
     transform: scaleX(1)
 }
 
-/* hero Image */
+/* Hero Image */
 
 #hero-image {
     height: 600px;
@@ -112,7 +112,7 @@ header{
     background-size: cover;
 }
 
-/* add zoom movement to Hero Image */
+/* Adding zoom movement to Hero Image */
 
 @keyframes zoomIn{
     from {
@@ -123,10 +123,32 @@ header{
     }     
 }
 
-/* Apply Animation to Hero Image */
+/* Applying Animation to Hero Image */
 
 #hero-image {
     animation: zoomIn 2.0s ease-in-out;
     animation-fill-mode: forwards;
 
+    /* Styling Footer */
 }
+footer {
+    background-color:#7A6044;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.social-media i{
+    color:#f9d3a7;
+    text-decoration: none;
+    padding: 3rem 1rem;
+    font-size: 2rem;
+}
+
+
