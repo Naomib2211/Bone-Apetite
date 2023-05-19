@@ -12,6 +12,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 500;
     color: #292420;
+    background-color: #BCA881;
 }
 
 /* headings and logo */
@@ -28,11 +29,14 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 #title {
     flex: 1;
     font-size: 300%;
     margin-left: 25px;
+    border-bottom: none;
 }
+
 
 /* navigation bar */
 
@@ -41,7 +45,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     font-size: 120%;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-right: 25px;
     color:#292420;
     
@@ -64,7 +68,7 @@ header{
     color: inherit;
 }
 
-/* Navigation bar further styling: hoover*/
+/* navigation bar further styling: hoover*/
 
 .nav-links li {
     position: relative;
@@ -81,7 +85,7 @@ header{
     width: 100%;
     height: 2px;
     content: "";
-    background: #BCA881;
+    background: #7A6044;
     transform: scaleX(0);
     transition: transform 0.2s ease;
 
@@ -97,7 +101,7 @@ header{
     transform: scaleX(1)
 }
 
-/* Hero Image */
+/* hero Image */
 
 #hero-image {
     height: 600px;
@@ -106,4 +110,23 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+/* add zoom movement to Hero Image */
+
+@keyframes zoomIn{
+    from {
+          transform: scale(0.9);
+    }
+      to {
+          transform: scale(1.0);
+    }     
+}
+
+/* Apply Animation to Hero Image */
+
+#hero-image {
+    animation: zoomIn 2.0s ease-in-out;
+    animation-fill-mode: forwards;
+
 }
