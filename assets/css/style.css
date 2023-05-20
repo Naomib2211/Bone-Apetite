@@ -242,6 +242,26 @@ section.food-drinks{
     margin-bottom: 15px;
 }
 
+/* Framing of each section of text*/
+
+div.dogs-place-section{
+    background-color: rgba(249, 211, 167, 0.3);
+    padding: 25px;
+    border-radius: 60px;
+}
+
+div.hangouts-section{
+    background-color: rgba(249, 211, 167, 0.3);
+    padding: 25px;
+    border-radius: 60px;
+}
+
+div.food-drinks-section{
+    background-color: rgba(249, 211, 167, 0.3);
+    padding: 25px;
+    border-radius: 60px;
+}
+
 
 
 
