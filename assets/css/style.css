@@ -174,6 +174,8 @@ section.dogs-place-1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 section.hangouts {
@@ -187,6 +189,8 @@ section.hangouts {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 section.food-drinks{
@@ -200,6 +204,8 @@ section.food-drinks{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 /* Styling images of main content sections*/
@@ -215,17 +221,28 @@ section.food-drinks{
     margin-top: 30px;
     margin-right: 100px;
     margin-bottom: 30px;
-    margin-left: 0;
+    margin-left: 40px;
     padding: 10px;
+    
 }
 
-/* Subtitle-text styling*/
+.dogs-place-image,
+.hangouts-home-image,
+.food-drinks-image{
+    border-radius: 80px;
+}
+
+
+/* Subtitle styling*/
 
 .dogs-place-text,
 .hangouts-text,
-.food-drinks-text {
-    font-size: 24px;
+.food-and-drinks-text {
+    font-size: 30px;
+    margin-bottom: 15px;
 }
+
+
 
 
 
