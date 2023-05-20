@@ -13,7 +13,14 @@ body {
     font-weight: 500;
     color: #292420;
     background-color: #BCA881;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+main {
+    flex: 1 0 auto;
+  }
 
 /* Headings and Logo */
 h1,
@@ -34,7 +41,10 @@ header{
     flex: 1;
     font-size: 300%;
     margin-left: 25px;
-    border-bottom: none;
+}
+
+.remove-underline{
+    text-decoration: none;
 }
 
 
@@ -150,5 +160,51 @@ footer {
     padding: 3rem 1rem;
     font-size: 2rem;
 }
+
+/* Placing main-content, centering section container*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.dogs-place-section,
+.hangouts-section,
+.food-drinks-section{
+    display: flex;
+    align-items: center;
+}
+
+/* Styling images of main content sections*/
+
+.dogs-place-image,
+.hangouts-home-image,
+.food-drinks-image{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding: 10px;
+}
+
+/* Subtitle-text styling*/
+
+.dogs-place-text,
+.hangouts-text,
+.food-drinks-text {
+    font-size: 24px;
+}
+
+
+
+
+
 
 
