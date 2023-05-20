@@ -163,17 +163,42 @@ footer {
 
 /* Placing main-content, centering section container*/
 
-section{
+section.dogs-place-1{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
 }
 
-.dogs-place-section,
-.hangouts-section,
-.food-drinks-section{
+.dogs-place-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.hangouts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hangouts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.food-drinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.food-drinks-section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
