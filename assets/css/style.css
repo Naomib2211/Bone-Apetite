@@ -262,11 +262,58 @@ div.food-drinks-section{
     border-radius: 60px;
 }
 
+/* Gallery page*/
 
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 3px;
+}
 
+ /* Further styling for better positioning on page*/
 
+.gallery-container img{
+    width: 200px;
+    height:fit-content;
+    margin-top: 15px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
 
+.item-1 {
+    width: 400px;
+    height: 400px;
+}
 
+.item-2 {
+
+}
+
+.item-3 {
+
+}
+
+.item-4 {
+
+}
+
+.item-5 {
+
+}
+
+.item-6 {
+
+}
+
+.item-7 {
+
+}
+
+.item-8 {
+
+}
 
 
 
