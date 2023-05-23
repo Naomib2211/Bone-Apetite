@@ -85,7 +85,8 @@ header{
 }
 
 .nav-links li a:hover {
-    color: #292420;
+    color: #292420
+    ;
 }
 
 .nav-links li a::before {
@@ -104,6 +105,10 @@ header{
 .nav-links li a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+ul.nav-links li a.active {
+     border-bottom: 2px solid #7A6044;
 }
 
 .nav-links li a:hover::after {
@@ -262,58 +267,58 @@ div.food-drinks-section{
     border-radius: 60px;
 }
 
-/* Gallery page*/
+/* Gallery Page*/
 
 .gallery-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 5px;
+    justify-items: auto;
+    align-items: center;
 }
 
  /* Further styling for better positioning on page*/
 
 .gallery-container img{
-    width: 200px;
-    height:fit-content;
+    width: 100%;
+    height:auto;
     margin-top: 15px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 20px; 
     border-radius: 8px;
-}
-
-.item-1 {
-    width: 400px;
-    height: 400px;
-}
-
-.item-2 {
-
-}
-
-.item-3 {
-
-}
-
-.item-4 {
-
-}
-
-.item-5 {
-
-}
-
-.item-6 {
-
-}
-
-.item-7 {
-
-}
-
-.item-8 {
-
+    object-fit: cover;
 }
 
 
+
+/*Contact Page*/
+
+.sign_up_form{
+    display: grid;
+    grid-template-rows: 
+}
+
+.sign_up_form_container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sign_up_form_title{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text_input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #7A6044;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.label_hidden {
+    display: none;
+}
 

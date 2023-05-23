@@ -28,7 +28,7 @@
                         <a href="gallery.html" aria-label="Gallery">Gallery</a>
                     </li>
                     <li>
-                        <a href="contact.html" aria-label="Contact">Contact</a>
+                        <a href="contact.html" class="active" aria-label="Contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -39,8 +39,28 @@
         <div id="hero-image" aria-label="Four Jack Russels sitting in front of a table with coffee cups">
         </div>
     </section>
-    <section>
-        A dog's place, food/drinks, hangouts
+    <section class="sign_up_form">
+        <div class="sign_up_form_container">
+            <form>
+                <h2 class="sign_up_form_title">
+                    Join our dog community and the weekly adventures!
+                </h2>
+                <label for="your_name" class="label_hidden label_your_name">Your Name</label>
+                <div class="input_your_name">
+                    <input id="your_name" name="your__name" placeholder="Your Name" required class="text_input" />
+                </div>
+
+                <label for="your_email" class="label_hidden label_your_email">Your Email</label>
+                <div class="input_your_email">
+                    <input type="email" id="email" name="email_address" placeholder="Your Email Address" required class="text_input" />
+                </div>
+
+                <label for="your_dogs_name" class="label_hidden label_your_dogs_name">Your Dog's Name</label>
+                <div class="input_your_dogs_name">
+                    <input id="your_dogs_name" name="your__dogs__name" type="text" placeholder="Your Dog's Name" required class="text_input" />
+                </div>
+            </form>
+        </div>
     </section>
   </main>
     <footer>
