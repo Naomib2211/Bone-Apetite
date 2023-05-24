@@ -262,18 +262,25 @@ div.food-drinks-section{
     border-radius: 60px;
 }
 
-/* Gallery Page*/
+
+
+/* Gallery Page - text section*/
 
 .hangouts-page {
-    display:flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     background-color: rgba(249, 211, 167, 0.3);
     padding: 25px;
     border-radius: 60px;
     margin: 20px;
-    margin-right: 500px;
-    
+    margin-right: 300px;
+    margin-left: 300px;
 }
+
+/* Gallery image section */
 
 .gallery-container{
     display: grid;
@@ -358,7 +365,8 @@ div.food-drinks-section{
 
 .sign_up_form{
     display: grid;
-    grid-template-rows: 
+    flex-direction: column;
+    align-items: center;
 }
 
 .sign_up_form_container{
@@ -378,10 +386,25 @@ div.food-drinks-section{
     padding: 10px;
     border: 1px solid #7A6044;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-left: 140px;
+    margin-bottom: 20px;
 }
 
 .label_hidden {
     display: none;
 }
+
+/* Further styling of Dog-preference buttons*/
+
+.dog-preference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice-preference {
+    margin-bottom: 10px;
+}
+
+
 
