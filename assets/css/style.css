@@ -386,7 +386,8 @@ div.food-drinks-section{
     padding: 10px;
     border: 1px solid #7A6044;
     border-radius: 8px;
-    margin-left: 140px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 20px;
 }
 
@@ -448,13 +449,42 @@ div.food-drinks-section{
 
 .submit_button {
     background-color:#f9d3a7;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
     color: #292420;
     width: 100px;
     height: 30px;
     border-color: #292420;
     border-style: outset;
-    border-radius: 4px;
-    border-width: 3px;
+    border-radius: 6px;
+    border-width: 2px;
 
 }
 
+/* Response Page */
+
+#response-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(249, 211, 167, 0.3);
+    padding: 25px;
+    border-radius: 60px;
+    margin: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.response-body{
+    margin-bottom: 20px;
+}
+
+/* Media Quieries */
+
+/* For larger to medium screen size from 790px wide and down */
+
+@media screen and (max width: 790px) {
+    
+}
