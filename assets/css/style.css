@@ -358,9 +358,6 @@ div.food-drinks-section{
 }
 
 
-
-
-
 /*Contact Page*/
 
 .sign_up_form{
@@ -486,5 +483,14 @@ div.food-drinks-section{
 /* For larger to medium screen size from 790px wide and down */
 
 @media screen and (max width: 790px) {
+    .text_input{
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .choice-preference {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
     
 }
