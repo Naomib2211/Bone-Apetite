@@ -464,61 +464,167 @@ div.food-drinks-section{
 
 /* Response Page */
 
-#response-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(249, 211, 167, 0.3);
-    padding: 25px;
-    border-radius: 60px;
-    margin: 20px;
-    margin-right: 300px;
-    margin-left: 300px;
-}
+/* For devices  */
 
-.response-body{
-    margin-bottom: 20px;
-}
-
-/* Media Quieries */
-
-/* For larger to medium screen size from 768px wide and down */
-
-@media only screen and (max-width: 768px) {
-    .dogs-place-section,
-    .dogs-place-image,
-    .hangouts-section,
-    .hangouts-home-image,
-    .food-drinks-section,
-    .food-drinks-image{
-        position: relative!important;
-        top: auto;
-        right: auto;
-        bottom: auto;
-        left: auto;
-        margin: 5px 0;
-        font-size: 12px;
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        align-items: center;
     }
-
-
 
     #title {
-        font-size: 200%;
-    }
-
-    .nav-links {
-        display: inline-grid;
-        font-size: 100%;
+        margin: 25px;
+        font-size: 300%!important;
     }
 
     .navbar {
-        margin: 25px;
+        margin-right: 50px;
     }
-    
-    
-    
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .dogs-place-1,
+    .hangouts,
+    .food-drinks {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dogs-place-image,
+    .hangouts-home-image,
+    .food-drinks-image {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .dogs-place-section,
+    .hangouts-section,
+    .food-drinks-section {
+        margin: 10px;
+    }
+
+    .gallery-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .hangouts-page {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .sign_up_form_container {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .text_input {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #title {
+        margin: 25px;
+        font-size: 200%!important;
+    }
+
+    .navbar {
+        margin-right: 50px!important;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .dogs-place-1,
+    .hangouts,
+    .food-drinks {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dogs-place-image,
+    .hangouts-home-image,
+    .food-drinks-image {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .dogs-place-section,
+    .hangouts-section,
+    .food-drinks-section {
+        margin: 10px;
+    }
+
+    .gallery-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .hangouts-page {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .sign_up_form_container {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .text_input {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #title {
+        margin: 25px;
+        font-size: 145%;
+        margin-top: 10px;
+    }
+
+    .navbar {
+        margin-right: 50px!important;
+        font-size: 100%;
+    }
+
+    .nav-links {
+        justify-content: center;
+        padding: 0px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+}
+
     
     /* Contact Page*/
     .text_input{
@@ -531,4 +637,6 @@ div.food-drinks-section{
         margin-left: 25%;
     }
     
-}
+
+
+    
