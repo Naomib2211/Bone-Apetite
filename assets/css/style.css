@@ -127,7 +127,7 @@ ul.nav-links li a.active {
 /* Hero Image */
 
 #hero-image {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-image: url("../images/Hero-image.jpeg");
     background-repeat: no-repeat;
