@@ -18,6 +18,10 @@ body {
     flex-direction: column;
 }
 
+p {
+    line-height: 25px;
+}
+
 main {
     flex: 1 0 auto;
   }
@@ -480,9 +484,43 @@ div.food-drinks-section{
 
 /* Media Quieries */
 
-/* For larger to medium screen size from 790px wide and down */
+/* For larger to medium screen size from 768px wide and down */
 
-@media screen and (max width: 790px) {
+@media only screen and (max-width: 768px) {
+    .dogs-place-section,
+    .dogs-place-image,
+    .hangouts-section,
+    .hangouts-home-image,
+    .food-drinks-section,
+    .food-drinks-image{
+        position: relative!important;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        margin: 5px 0;
+        font-size: 12px;
+    }
+
+
+
+    #title {
+        font-size: 200%;
+    }
+
+    .nav-links {
+        display: inline-grid;
+        font-size: 100%;
+    }
+
+    .navbar {
+        margin: 25px;
+    }
+    
+    
+    
+    
+    /* Contact Page*/
     .text_input{
         margin-right: 25%;
         margin-left: 25%;
