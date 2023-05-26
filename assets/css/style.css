@@ -4,7 +4,7 @@
 *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: none;
+    padding: 0;
 } 
 
 .hero__title{
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     color: #292420;
     background-color: #BCA881;
@@ -31,7 +31,7 @@ main {
 
 /* Headings and Logo */
 h1{
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #292420
@@ -542,7 +542,7 @@ div.food-drinks-section{
 
 /* For tablets up to 992px */
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 993px) and (max-width: 1108px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -585,7 +585,7 @@ div.food-drinks-section{
     .dogs-place-section,
     .hangouts-section,
     .food-drinks-section {
-        margin: 10px;
+        margin: 20px;
     }
 
     .gallery-container {
@@ -608,6 +608,76 @@ div.food-drinks-section{
         margin-right: 25%;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #title {
+        margin: 25px;
+        font-size: 200%!important;
+    }
+
+    .navbar {
+        margin-right: 50px!important;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .response-page,
+    .dogs-place-1,
+    .hangouts,
+    .food-drinks {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dogs-place-image,
+    .hangouts-home-image,
+    .food-drinks-image {
+        width: 100%;
+        margin: 10px 0;
+    }
+   
+    .response-page,
+    .dogs-place-section,
+    .hangouts-section,
+    .food-drinks-section {
+        margin: 20px;
+    }
+
+    .gallery-container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .hangouts-page {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .sign_up_form_container {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .text_input {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
 
 /* For mobile devices above 480px*/
 
