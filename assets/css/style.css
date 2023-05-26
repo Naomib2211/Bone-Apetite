@@ -7,6 +7,9 @@
     padding: none;
 } 
 
+.hero__title{
+    display: none;
+}
 
 body {
     font-family: Raleway, sans-serif;
@@ -151,9 +154,10 @@ ul.nav-links li a.active {
 #hero-image {
     animation: zoomIn 2.0s ease-in-out;
     animation-fill-mode: forwards;
-
-    /* Styling Footer */
 }
+   
+/* Styling Footer */
+
 footer {
     background-color:#7A6044;
 }
@@ -172,6 +176,11 @@ footer {
     text-decoration: none;
     padding: 3rem 1rem;
     font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover i {
+    color: #292420;
 }
 
 /* Placing main-content, centering section container*/
@@ -468,7 +477,12 @@ div.food-drinks-section{
     border-style: outset;
     border-radius: 6px;
     border-width: 2px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
 
+.submit_button:hover {
+    color: #f9d3a7;
+    background-color: #292420;
 }
 
 /* Response Page */
@@ -515,7 +529,14 @@ div.food-drinks-section{
         border-width: 2px;
         text-decoration: none;
         padding: 2px; 
+        transition: color 0.3s ease, background-color 0.3s ease;
     }   
+
+.return_button:hover{
+    color: #f9d3a7;
+    background-color: #292420;
+}
+
 
 
 
