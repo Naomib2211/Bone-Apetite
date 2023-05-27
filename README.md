@@ -47,7 +47,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
         * On mobile devices: 
             - similarly to tablet-screens, the navigation bar is filled with the cafe title with even smaller font-size and beneath, in the second line the navigation links, lined in a row. All elements centered.
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+            [NavBar Mobile Closed](documentation/navbar_mobile.pdf)
         
 
 
@@ -194,15 +194,17 @@ Testing has been done in order to correctly present functionality, responsivenes
 
     - Chrome:
 
-    ![Chrome](documentation/chrome_testing.mp4)
+    ![Chrome](documentation/chrome_browser.png)
 
     - FireFox:
 
-    ![FireFox](documentation/firefox_testing.mp4)
+    ![FireFox](documentation/firefox_browser.png)
 
     - Safari:
 
-    ![Safari](documentation/safari_testing.mp4)
+    ![Safari](documentation/safari_browser.png)
+
+    In the future, functioning screen recordings will be added to this document. 
 
 
 + The website was checked through devtools in all three browsers Chrome, Firefox and  Safari.
@@ -225,17 +227,11 @@ Testing has been done in order to correctly present functionality, responsivenes
 
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
-    - Desktop Screens:
+- In the following images Desktop, tablet and mobile responsiveness is presented:
 
-    ![Desktop 1920x1200 - 1024x600]()
-
-    - Tablet Screens:
-
-    ![Tablet Kindle 768x1024 - 600x960]()
-
-    - Mobile Screens:
-
-    ![Mobile 414x736 - 320x480]()
+    [Home page](documentation/responsiveness_home_page.pdf)
+    [Gallery Page](documentation/responsiveness_gallery_page.pdf)
+    [Contact Page](documentation/responsiveness_contact_page.pdf)
 
 
 + The website has been tested by several users.
@@ -277,7 +273,7 @@ Testing has been done in order to correctly present functionality, responsivenes
     - Learned through much practice to write commits in present tense, simpler descriptions to keep it short and waited until greater changes were made to commit changes. 
 
     - Accidental additions of unknown files
-        * Being new to coding and programming technology caused these errors. In future projects, this will be less frequent with time and continous practice.
+        * Being new to coding and programming technology caused these errors. In the future, this will be corrected and modified.
 
 
 ---
@@ -318,7 +314,10 @@ Testing has been done in order to correctly present functionality, responsivenes
 
 + ### Accessibility and performance 
 
-    ![Performance score](documentation/lighthouse_performance_score.png)
+    ![Performance score Home Page](documentation/lighthouse_performance_score.png)
+    ![Performance score Gallery Page](documentation/lighthouse_performance_gallery.png)
+    ![Performance score Contact Page](documentation/lighthouse_performance_contact.png)
+    ![Responsepage](documentation/lighthouse_performance_response.png)
 
     - Using Lighthouse in dev tools, the performance score was set. Everything is 100% except for in the "performance" section on all pages, including the response page.
         * This is because of the images of the page. Not re-sizing the images before adding to page, caused this performance score.
@@ -354,8 +353,44 @@ The website's [Live link](https://naomib2211.github.io/Bone-Appetite/index.html)
 
 + #### Content
 
+    - Took inspiration from a dog cafe in South Korea [Bauhouse](https://www.neverendingfootsteps.com/visiting-the-dog-cafe-in-seoul/)
+    - My Mentor Julia's first project [Dog-Shelter](https://iuliiakonovalova.github.io/animal_shelter/)
+
 
 + #### Media
+
+- Color scheme
+    * [Adobe](https://color.adobe.com/My-Color-Theme-color-theme-e50fc2ae-7ade-45b4-a3a2-fea6e921be1f/)
+- Font style 
+    * [Playfair](https://fonts.google.com/specimen/Playfair+Display?preview.text=We%20have%20lots%20of%20treats%20and%20fun%20things%20to%20do&preview.size=35&preview.text_type=custom&query=playf)
+    * [Raleway](https://fonts.google.com/specimen/Raleway?preview.text=We%20have%20lots%20of%20treats%20and%20fun%20things%20to%20do&preview.size=35&preview.text_type=custom&query=raleway)
+
++ # Images
+- Gallery Page
+    * [Hero-image](https://stock.adobe.com/ie/contributor/203341399/ksuksa?load_type=author&prev_url=detail&asset_id=302972361)
+    * [Food-and-drinks-section](https://www.pexels.com/photo/dog-food-in-a-glass-container-10880504/)
+    * [Dogs-place-section](https://www.pexels.com/photo/woman-looking-at-her-pet-dog-9509757/)
+    * [Hangout-section](https://unsplash.com/photos/73flblFUksY)
+- Gallery Page 
+    * [image-1](https://www.pexels.com/photo/three-dogs-playing-together-11512316/)
+    * [image-2](https://www.pexels.com/photo/a-cute-dogs-running-on-green-grass-field-12874286/)
+    * [image-3](https://www.pexels.com/photo/two-dogs-with-one-stick-on-grass-5938325/)
+    * [image-4](https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/)
+    * [image-5](https://www.pexels.com/photo/two-brown-dachshund-976921/)
+    * [image-7](https://www.pexels.com/photo/a-two-golden-retrievers-playing-tug-of-war-on-a-snow-covered-ground-11249182/)
+
+    Gallery images generated by author Shaqn using “Midjourney” 
+    * [image-5](https://www.pexels.com/photo/photo-of-dogs-running-14520087/)  
+    * [image-8](midjourney.com/app/users/02ac4226-92af-4ee1-b4cd-50c84281055a/)
+
++ #### Acknowledments
+
+- My Mentor [Julia Konovalov](https://github.com/IuliiaKonovalova) who has greatly supported me throughout the journey of my first project, when I had no idea where to even start.
+- My friend Jonatan Sirak, a programmer who supported me with pointers.
+- [Code Institute](https://codeinstitute.net/se/) with fundamental knowledge to even be able to code.
+- My friend Emma Hedman, with mental support and a visitor of this website.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for guidance in knowledge of flexbox and responsivity. 
+
 
 ## wireframes
 
