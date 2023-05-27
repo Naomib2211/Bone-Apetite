@@ -1,4 +1,4 @@
-![Bone Appétite Logo Image](documentation/logo-image.pdf)
+[Bone Appétite Logo Image](documentation/logo-image.pdf)
 
 ---
 
@@ -8,10 +8,7 @@ The dog cafe Bone Appétite website serves its purpose by informing dog owners a
 
 To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/index.html)
 
-## wireframes
-
-[wireframes](documentation/wireframe.pdf)
-
+[amiresponsive-image](documentation/am_i_responsive.pdf)
 
 ---
 ## User Stories
@@ -42,15 +39,15 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
     - The links have underlining hover effect.
     - The navigation is clear and easy to understand for the user.
 
-    ![NavBar desktop](documentation/navbar.pdf)
+    [NavBar desktop](documentation/navbar.pdf)
 
     - The navigation bar is responsive:
         * On tablets: navigation bar is split into to lines: the first line filled with the cafe title that now has a slightly smaller font-size and the second line with navigation links in a row. All elements are centered.
-        ![NavBar Tablets](documentation/navbar_tablet.pdf)
+        [NavBar Tablets](documentation/navbar_tablet.pdf)
 
         * On mobile devices: 
             - similarly to tablet-screens, the navigation bar is filled with the cafe title with even smaller font-size and beneath, in the second line the navigation links, lined in a row. All elements centered.
-            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+            [NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
         
 
 
@@ -65,7 +62,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
         * The variety of things the cafe offers.
 
 
-    ![Home Page](documentation/home__page.pdf)
+    [Home Page](documentation/home__page.pdf)
 
 ---
 
@@ -76,7 +73,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
     - The background image presents what the cafe stands for - dogs and cafe    environment.
 
     
-    ![Hero Section](documentation/hero__image.pdf)
+    [Hero Section](documentation/hero__image.pdf)
 
 --- 
 
@@ -90,7 +87,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
     - The main section has simple and easy to understand design for the visitor to get the quick information they need to make an informed decision.
 
     
-    ![Home page main section](documentation/home_page_main.pdf)
+    [Home page main section](documentation/home_page_main.pdf)
 
 
 ---
@@ -98,7 +95,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
     - Footer contains social media links that open in a new tab.
 ​
-    ![Footer](documentation/home_page_footer.pdf)
+    [Footer](documentation/home_page_footer.pdf)
 ​
 ---
 + ### Gallery Page
@@ -114,7 +111,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
     - The footer is identical to the homepage, as well as the other pages.
     
 ​
-    ![Gallery Page](documentation/gallery_section.pdf)
+    [Gallery Page](documentation/gallery_section.pdf)
 
 
 ---
@@ -137,7 +134,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
     - The submit button leads to the response page.
 ​
-    ![Contact page](documentation/contact_page.pdf)
+    [Contact page](documentation/contact_page.pdf)
 
 
 ---
@@ -148,7 +145,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
     - It also encourages the visitor to engage in their social media pages until then.
     - There is a "Go Back to Home" button, that redirects visitor to Home page.
 
-    ![Response page](documentation/form-response-page.pdf)
+    [Response page](documentation/form-response-page.pdf)
 
 ---
 ## Technologies Used
@@ -167,20 +164,20 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 ---
 ## Design
 
-![Color Theme](documentation/adobeColor-My-Color-Theme.pdf)
+[Color Theme](documentation/adobeColor-My-Color-Theme.pdf)
 
 - These colors were customized on Adobe color.
 - This combination of colors were used to create a warm and inviting first impression, but also feeling overall.
 - The different tones and shades of brown gives an earthy and natural vibe.
 - Another reason for using this combination of colors was to bring forth the color of cookies, where a "classic" cookie has different shades of brown and beige to present the cookie dough and chocolate pieces.
 
-![Playfair](documentation/playfair.pdf)
+[Playfair](documentation/playfair.pdf)
 
 - Used for the logo title of the cafe name.
 - It was chosen to show a classic and stylish look, in contrast to the cute and warm overall feeling of the website and the cafe's message.
 - Contrast to the other text sections of the website, in order to highlight the name of the cafe, making it more memorable.
 
-![Raleway](documentation/raleway.pdf)
+[Raleway](documentation/raleway.pdf)
 
 - Used for all the parts containing text except for the logo title. 
 - Less "harsh" than the logo title, to give a softer look together with the color theme. 
@@ -193,7 +190,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
 Testing has been done in order to correctly present functionality, responsiveness and appearance.
 
-+ The website was tested on the following browsers: Chrome, Firefox, Brave.
++ The website was tested on the following browsers: Chrome, Firefox, Safari.
 
     - Chrome:
 
@@ -212,11 +209,11 @@ Testing has been done in order to correctly present functionality, responsivenes
 
     - Main Page:
 
-    ![Main Page](documentation/)
+    ![Main Page](documentation)
 
     - Gallery Page:
 
-    ![Gallery Page]()
+    ![Gallery Page](documentation)
 
     - Contact Page:
 
@@ -264,52 +261,67 @@ Testing has been done in order to correctly present functionality, responsivenes
 ​
 ### Bugs
 + ##### Solved bugs
-    1. 
-    
-        
-    
+    1. Logo title had an underline that would not go away.
+        Solution: Targeted the logo title in CSS and added it with property and value of "text-decoration: none;".
 
     ---
 + ##### Unsolved bugs
-    - 
+
+    - None
+
 + ##### Mistakes
+
+    - Throughout this project, there were some mistakes in how changes were commited. 
+        - Commited in past tense
+        - Commit messages were too long
+        - Unnecessary commits
+    - Learned through much practice to write commits in present tense, simpler descriptions to keep it short and waited until greater changes were made to commit changes. 
+
+    - Accidental additions of unknown files
+        - Being new to coding and programming technology caused these errors. In future projects, this will be less frequent with time and continous practice.
 
 
 ---
 ## Validator testing
 + ### HTML
+
   #### Home Page
-    - 
+   
+    - No errors found, as seen below.
 
-
-    ![Home Page HTML Validator]()
+    ![Home Page HTML Validator](documentation/index_html_validation.png)
     
   #### Gallery Page
-    - 
+    
+    - No errors found, as seen below.
 
-    ![Gallery Page HTML Validator]()
+    ![Gallery Page HTML Validator](documentation/gallery_html_validation.png)
 
   #### Contact Page
-    - 
+   
+    - No errors found, as seen below.
 
-    ![Contact Page HTML Validator]()
+    ![Contact Page HTML Validator](documentation/contact_html_validation.png)
 
   #### Response Page
-    - 
+   
+    - No errors found, as seen below.
 
-    ![Response Page HTML Validator]()
+    ![Response Page HTML Validator](documentation/response_form_html_validation.png)
     
 + ### CSS
-
     
+    - No errors found, as seen below.
 
-
+    ![CSS Code Validator](documentation/css_validation.png)
+    
 
 
 + ### Accessibility and performance 
+    
     - Using lighthouse 
 
-    ![Performance score]()
+    ![Performance score](documentation/lighthouse_performance_score.png)
 
 ---
 ## Deployment
@@ -330,3 +342,6 @@ Testing has been done in order to correctly present functionality, responsivenes
 
 + #### Media
 
+## wireframes
+
+[wireframes](documentation/bone_appetite_wireframe.pdf)
