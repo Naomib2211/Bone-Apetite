@@ -47,7 +47,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
         * On mobile devices: 
             - similarly to tablet-screens, the navigation bar is filled with the cafe title with even smaller font-size and beneath, in the second line the navigation links, lined in a row. All elements centered.
-            [NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
+            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
         
 
 
@@ -57,8 +57,8 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
     - Contents: 
 
-        * Shows why the cafe started.
-        * Why cafe is different than others.
+        * Shows the purpose of the cafe.
+        * Why this cafe is different than others.
         * The variety of things the cafe offers.
 
 
@@ -70,7 +70,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
     - The hero section has a background image.
 
-    - The background image presents what the cafe stands for - dogs and cafe    environment.
+    - The background image presents what the cafe stands for - dogs and cafe environment.
 
     
     [Hero Section](documentation/hero__image.pdf)
@@ -106,7 +106,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
     - It informs that all kinds of dogs are welcome, as there are different events for different sized dogs.
 
-        - The gallery is responsive, the size of the photo depends on the user's screen.
+    - The gallery is responsive, the size of the photo depends on the user's screen.
 
     - The footer is identical to the homepage, as well as the other pages.
     
@@ -124,15 +124,15 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
         - All inputs are set to be required to fill out.
         - It has three checkboxes for the visitors to fill in order for the cafe to know the vistor's needs:
 
-            - First checkbox, "Small Dog" asks if the visitor wants their dog to join a small dog-event.
-            - Second checkbox, "Big Dog" asks if the visitor wants their dog to join a big dog-event.
-            - Third and last checkbox, "No Preference" asks if the visitor has no preference about the specific size of dogs in the upcoming events.
+            *  First checkbox, "Small Dog" asks if the visitor wants their dog to join a small dog-event.
+            *  Second checkbox, "Big Dog" asks if the visitor wants their dog to join a big dog-event.
+            *  Third and last checkbox, "No Preference" asks if the visitor has no preference about the specific size of dogs in the upcoming events.
 
         - The submit button is animated on hover, in matching color of page.
 
-    - The page is responsive on all common screen sizes.
+        - The page is responsive on all common screen sizes.
 
-    - The submit button leads to the response page.
+        - The submit button leads to the response page.
 ​
     [Contact page](documentation/contact_page.pdf)
 
@@ -142,7 +142,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 
     - The response page automatically appears when the visitor submits the sign up-form correctly.
     - It contains a thank you message and that the cafe will contact the visitor for the next coming events.
-    - It also encourages the visitor to engage in their social media pages until then.
+    - It encourages the visitor to engage in their social media pages until then.
     - There is a "Go Back to Home" button, that redirects visitor to Home page.
 
     [Response page](documentation/form-response-page.pdf)
@@ -154,7 +154,7 @@ To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/ind
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - used to style the html created for the home page.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - used to structure images overall page.
 - [CSS Grid](https://css-tricks.com/almanac/properties/g/grid-template-columns/) - used to further structure images on all pages and sign up-form in the Contact-page.
-- [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)  -used to create AI-photos, for two images in the Gallery page.
+- [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)  - used to create AI-photos, for two images in the Gallery page.
 - [Balsamiq](https://balsamiq.com/)  - used to make the wireframe of the website.
 - [VSCode](https://code.visualstudio.com/) - used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) - used for version control of the website.
@@ -227,35 +227,34 @@ Testing has been done in order to correctly present functionality, responsivenes
 
     - Desktop Screens:
 
-    ![Desktop 1024x600]()
-    ![Desktop 1024x800]()
-    ![Desktop 1366x768]()
-    ![Desktop 1440x900]()
-    ![Desktop 1600x900]()
-    ![Desktop 1680x1050](documentation/1680x1050.mov)
-    ![Desktop 1920x1080](documentation/1920x1080.mov)
-    ![Desktop 1920x1200](documentation/1920x1200.mov)
+    ![Desktop 1920x1200 - 1024x600]()
 
     - Tablet Screens:
 
-    ![Tablet 600x960]()
-    ![Tablet 768x1024]()
-    ![Tablet 800x1280]()
-    ![Tablet 1024x768]()
-    ![Tablet 1366x1024]()
-    ![Tablet Kindle 768x1024]()
+    ![Tablet Kindle 768x1024 - 600x960]()
 
     - Mobile Screens:
 
-    ![Mobile 320x480]()
-    ![Mobile 320x568]()
-    ![Mobile 360x640]()
-    ![Mobile 375x667]()
-    ![Mobile 384x640]()
-    ![Mobile 411x731]()
-    ![Mobile 414x736]()
+    ![Mobile 414x736 - 320x480]()
+
 
 + The website has been tested by several users.
+
+### Manual testing
+
+| feature      | action | expected result | tested              | passed | comments |
+| ---          | ---    | ---             | ---                 |   ---  | ---      |
+| home link    | click  | user is redirected to the home page   | Y | Y | |
+| gallery link | click  | user is redirected to the gallery page | Y | Y | |
+| contact link | click  | user is redirected to the contact page | Y | Y | |
+| instagram link | click | instagram page is opened in a new tab | Y | Y | |
+| facebook link | click | facebook page is opened in a new tab  | Y | Y | |
+| twitter link | click | twitter page is opened in a new tab    | Y | Y | |
+| youtube link | click | youtube page is opened in a new tab    | Y | Y | |
+| submit button in contact form | click when form is not filled | form is not submitted and error message is displayed | Y | Y | |
+| submit button in contact form | click when form is filled but the email is not valid | form is not submitted and error message is displayed                                                       | Y | Y | |
+| submit button in contact form | click when form is filled and the email is valid but the user didn't mark the checkbox | form is still submitted without any errors and user is redirected to thankyou page | Y | Y | it is done on purpose as if user doesn't check their preferences, assumption will be made visitor is ok with all of the options |
+| "return to home" button in response page | click | user is redirected to the home page | Y | Y | |
 
 ---
 ​
@@ -272,13 +271,13 @@ Testing has been done in order to correctly present functionality, responsivenes
 + ##### Mistakes
 
     - Throughout this project, there were some mistakes in how changes were commited. 
-        - Commited in past tense
-        - Commit messages were too long
-        - Unnecessary commits
+        * Commited in past tense
+        * Commit messages were too long
+        * Unnecessary commits
     - Learned through much practice to write commits in present tense, simpler descriptions to keep it short and waited until greater changes were made to commit changes. 
 
     - Accidental additions of unknown files
-        - Being new to coding and programming technology caused these errors. In future projects, this will be less frequent with time and continous practice.
+        * Being new to coding and programming technology caused these errors. In future projects, this will be less frequent with time and continous practice.
 
 
 ---
@@ -318,21 +317,37 @@ Testing has been done in order to correctly present functionality, responsivenes
 
 
 + ### Accessibility and performance 
-    
-    - Using lighthouse 
 
     ![Performance score](documentation/lighthouse_performance_score.png)
 
+    - Using Lighthouse in dev tools, the performance score was set. Everything is 100% except for in the "performance" section on all pages, including the response page.
+        * This is because of the images of the page. Not re-sizing the images before adding to page, caused this performance score.
 ---
 ## Deployment
 
+ - The site was deployed to GitHub pages. To deploy, these steps were used:
+ * In GitHub repository, go to the Settings tab
+ * Select "Main Brance" from the source section in the drop down menu. Save.
+ * Following a successful deployment, the page will automatically refresh, accompanied by a detailed ribbon display to signify the completion.
 
-
-[Live link] to the website (https://naomib2211.github.io/Bone-Appetite/index.html)
+The website's [Live link](https://naomib2211.github.io/Bone-Appetite/index.html)
 
 ## Local Deployment
 
+- To make a local deployment, a local copy, clone this to the IDE of their choice:
+    * https://github.com/Naomib2211/Bone-Appetite.git
 
+- Alternatively, go to my [Github](https://github.com/Naomib2211/Bone-Appetite) and click on the green "Code" button on the left side, above the repository and copy the local link there.
+
+---
+ + ### Future Improvements
+
+ - Add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
+ - Add custom 404 page
+ - Add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+ - As I am aware that I have made errors in my commit messages during the development process, I will try to improve my commit messages in the future
+ - Add fully functional contact form when I learn how to do it in the future
+ - Compress images to improve the performance of the website
 
 ---
 ## Credits
