@@ -235,9 +235,9 @@ Testing has been done in order to correctly present functionality, responsivenes
     ![Desktop 1366x768]()
     ![Desktop 1440x900]()
     ![Desktop 1600x900]()
-    ![Desktop 1680x1050]()
-    ![Desktop 1920x1080]()
-    ![Desktop 1920x1200]()
+    ![Desktop 1680x1050](documentation/1680x1050.mov)
+    ![Desktop 1920x1080](documentation/1920x1080.mov)
+    ![Desktop 1920x1200](documentation/1920x1200.mov)
 
     - Tablet Screens:
 
