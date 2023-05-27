@@ -6,9 +6,9 @@
 
 The dog cafe Bone Appétite website serves its purpose by informing dog owners about the physical dog café, that they can visit and also meet other likeminded people with their respective pet dogs. Additionally the website informs about the dog community created by the cafe, in order to for the visitor to find a new community. 
 
-Click [here] to visit the site(https://naomib2211.github.io/Bone-Appetite/index.html)
+To visit the website click [here](https://naomib2211.github.io/Bone-Appetite/index.html)
 
-!## wireframes
+## wireframes
 
 [wireframes](documentation/wireframe.pdf)
 
@@ -33,14 +33,15 @@ Click [here] to visit the site(https://naomib2211.github.io/Bone-Appetite/index.
 + ### Navbar
 
 + ##### Navigation
-    - Positioned at the top left of the page.
+    - Positioned at the top of the page.
     - Contains a title of the cafe name on the left side.
     - Contains navigation links on the right side:
-        * HOME - leads to the home page where the visitors gets aa simple overview of what this cafe is about.
+        * HOME - leads to the home page where the visitors gets a simple overview of what this cafe is about.
         * GALLERY - leads to the gallery page where users can see images from past events that the cafe organizes.
         * CONTACT - leads to the contact form page where users can fill out the form in order to get involved in the dog community created by the cafe.
     - The links have underlining hover effect.
     - The navigation is clear and easy to understand for the user.
+
     ![NavBar desktop](documentation/navbar.pdf)
 
     - The navigation bar is responsive:
@@ -211,7 +212,7 @@ Testing has been done in order to correctly present functionality, responsivenes
 
     - Main Page:
 
-    ![Main Page]()
+    ![Main Page](documentation/)
 
     - Gallery Page:
 
@@ -307,7 +308,7 @@ Testing has been done in order to correctly present functionality, responsivenes
 
 + ### Accessibility and performance 
     - Using lighthouse 
-    
+
     ![Performance score]()
 
 ---

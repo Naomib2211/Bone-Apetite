@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@1,500&display=swap');
 
+/* ----- << Global Settings >> -----*/
+
+/* Headings and Logo styling */
+
 *,*::before,
 *::after {
     box-sizing: border-box;
@@ -29,8 +33,9 @@ main {
     flex: 1 0 auto;
   }
 
-/* Headings and Logo */
-h1{
+
+
+h1 {
     font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -42,7 +47,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +63,7 @@ header{
     text-decoration: none;
 }
 
+/*----- << Home Page Styling >>----- */
 
 /* Navigation Bar */
 
@@ -138,7 +144,7 @@ ul.nav-links li a.active {
     background-size: cover;
 }
 
-/* Adding zoom movement to Hero Image */
+/* Animation styling to Hero Image */
 
 @keyframes zoomIn{
     from {
@@ -149,14 +155,13 @@ ul.nav-links li a.active {
     }     
 }
 
-/* Applying Animation to Hero Image */
 
 #hero-image {
     animation: zoomIn 2.0s ease-in-out;
     animation-fill-mode: forwards;
 }
    
-/* Styling Footer */
+/* Footer Styling */
 
 footer {
     background-color:#7A6044;
@@ -183,7 +188,7 @@ footer {
     color: #292420;
 }
 
-/* Placing main-content, centering section container*/
+/* Main Content styling: centering section container*/
 
 section.dogs-place-1{
     display: flex;
@@ -275,9 +280,13 @@ div.food-drinks-section{
     border-radius: 60px;
 }
 
+/*----- << Styling 2nd Page GALLERY >>----- */
 
+/* Main Content styling: Text*/
 
-/* Gallery Page - text section*/
+.gallery-photos{
+    display: none;
+}
 
 .hangouts-page {
     display: flex;
@@ -293,7 +302,7 @@ div.food-drinks-section{
     margin-left: 300px;
 }
 
-/* Gallery image section */
+/* Styling Gallery images section */
 
 .gallery-container{
     display: grid;
@@ -371,7 +380,9 @@ div.food-drinks-section{
 }
 
 
-/*Contact Page*/
+/*----- << Styling 3rd Page Contact >>----- */
+
+/* Styling sign up-form*/
 
 .text_input{
     margin-right: 25%;
@@ -428,7 +439,7 @@ div.food-drinks-section{
     font-family: Raleway, sans-serif;
 }
 
-/* Further styling of Dog-preference buttons*/
+/* Styling Dog-preference buttons*/
 
 .dog-preference {
     display: flex;
@@ -485,7 +496,9 @@ div.food-drinks-section{
     background-color: #292420;
 }
 
-/* Response Page */
+/*----- << Styling Last Page Response Page >>----- */
+
+/* Styling response text */
 
 .response-page {
     display: flex;
@@ -504,6 +517,8 @@ div.food-drinks-section{
 .response-body{
     margin-bottom: 20px;
 }
+
+/* Styling button */
 
 .return-button {
         margin: 10px;
@@ -538,9 +553,9 @@ div.food-drinks-section{
 }
 
 
+/*----- << Responsiveness Re-adjustments in Styling >>----- */
 
-
-/* For tablets up to 992px */
+/* For screens up to 1108px */
 
 @media only screen and (min-width: 993px) and (max-width: 1108px) {
     header {
@@ -608,6 +623,8 @@ div.food-drinks-section{
         margin-right: 25%;
     }
 }
+
+/* For screens up to 992px */
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -679,7 +696,7 @@ div.food-drinks-section{
 }
 
 
-/* For mobile devices above 480px*/
+/* For screens up to 767px */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     header {
@@ -748,7 +765,7 @@ div.food-drinks-section{
         margin-right: 25%;
     }
 }
-    /* For mobile devices below 480px*/
+    /* For screens below 480px*/
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     header {
